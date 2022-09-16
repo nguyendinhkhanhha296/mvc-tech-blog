@@ -1,7 +1,6 @@
 {
   "name": "mvc-tech-blog",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,9 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/nguyendinhkhanhha296/mvc-tech-blog.git"
   },
   "author": "Khanh Ha",
   "license": "ISC",
-  "homepage": ""
+  "homepage": "https://github.com/nguyendinhkhanhha296/mvc-tech-blog#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/nguyendinhkhanhha296/mvc-tech-blog/issues"
+  },
+  "description": ""
 }
