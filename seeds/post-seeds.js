@@ -3,13 +3,13 @@ const {
 } = require('../models');
 
 const postData = [{
-        title: "Taskmaster goes public!",
-        post_content: "Taskinator is a task-tracker app that will allow you to organize your personal to-do list items by clicking and dragging them into categories like To Do, In Progress, and Completed.",
+        title: "This Mac app makes it easy to create your own AI images",
+        post_content: "Everyone wants to get in on the AI image generation action, but if you’ve been intimidated by the existing options out there based on Stable Diffusion.",
         user_id: 3
     },
     {
-        title: "Zoo Keepr reaches 1 million subscribers!",
-        post_content: "The local zoo has received funding to build a new online catalog, and they've asked to create a web server for a front-end application they’re developing, called Zoo Keepr. This site’s data will be stored on the server. This will allow animal enthusiasts to access the data from different locations and browsers without needing to download it to their device",
+        title: "YouTube is gearing up to give Shorts creators!",
+        post_content: "YouTube is gearing up to turn on stable monetization for Shorts, its short-form video product, according to a new report from The New York Times.",
         user_id: 1
     },
     {
@@ -24,8 +24,8 @@ const postData = [{
         user_id: 5
     },
     {
-        title: "Just Tech News goes public!",
-        post_content: "Just Tech News—a tech news website where users can post, upvote, and comment on links to news articles. Use Sequelize, an object-relational mapping (ORM) library, to simplify your MySQL queries, add password hashing so that users can create secure passwords, and connect your application to JawsDB, a MySQL add-on for Heroku",
+        title: "iOS 16 users are getting creative with the new background removal feature for photos",
+        post_content: "For folks who don’t know about this feature, iOS 16 lets you “pick” any object from a photo and save it as a separate transparent image — just like a background removal tool",
         user_id: 4
     }
 ]

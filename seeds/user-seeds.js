@@ -3,46 +3,40 @@ const {
 } = require('../models');
 
 const userData = [{
-        username: "martin_bour",
-        twitter: "martinb",
-        github: "martinb",
-        email: "martin_b@gmail.com",
-        password: "p@ssword1"
+        username: "christopher",
+        github: "christopher",
+        email: "christopher_n@gmail.com",
+        password: "123456"
     },
     {
-        username: "matt_b",
-        twitter: "mathewb",
-        github: "mathewb",
-        email: "mathew_b@gmail.com",
-        password: "p@ssword2"
+        username: "william",
+        github: "willp",
+        email: "willp123@gmail.com",
+        password: "134567"
     },
     {
-        username: "shaun_c",
-        twitter: "shaun",
-        github: "shaun",
-        email: "shaun_c@gmail.com",
-        password: "p@ssword3"
+        username: "jasmine",
+        github: "jasstea",
+        email: "jasstea@gmail.com",
+        password: "tea123"
     },
     {
-        username: "lee_n",
-        twitter: "leenorris",
-        github: "leenorris",
-        email: "lee_n@gmail.com",
-        password: "p@ssword4"
+        username: "dannie",
+        github: "dannienj",
+        email: "dannie_nj@gmail.com",
+        password: "dannnnn"
     },
     {
-        username: "priya_r",
-        twitter: "priyaravi23",
-        github: "priyaravi23",
-        email: "priya_r@gmail.com",
-        password: "p@ssword5"
+        username: "ha123",
+        github: "nguyendinhkhanhha296",
+        email: "ndkh@gmail.com",
+        password: "ha123"
     },
     {
-        username: "pooja",
-        twitter: "pooja_w",
-        github: "pooja",
-        email: "pooja@gmail.com",
-        password: "p@ssword6"
+        username: "blessu",
+        github: "blessU",
+        email: "blessu@gmail.com",
+        password: "654321"
     }
 ]
 
