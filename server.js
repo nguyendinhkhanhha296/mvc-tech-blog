@@ -12,11 +12,14 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+//handlebars initialization
+const hbs = exphbs.create({ helpers });
+
 //setup session
 const sess = {
     secret: 'santababy',
     cookie: {
-        maxAge: 3000000
+        expires: 10 * 60 * 1000
     },
     resave: false,
     saveUninitialized: true,
@@ -25,20 +28,16 @@ const sess = {
     })
 };
 
-//handlebars initialization
-const hbs = exphbs.create({ helpers });
+app.use(session(sess));
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 app.use(express.json());
-
 app.use(express.urlencoded({
     extended: true
 }));
 app.use(express.static(path.join(__dirname, 'public')));
-
-app.use(session(sess));
 
 //use routes
 app.use(routes);
