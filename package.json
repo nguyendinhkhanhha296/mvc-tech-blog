@@ -1,6 +1,9 @@
 {
   "name": "mvc-tech-blog",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.8.0"
+  },
   "main": "server.js",
   "scripts": {
     "test": "jest",
