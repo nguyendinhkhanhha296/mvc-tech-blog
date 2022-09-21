@@ -19,11 +19,11 @@
 
 ## Screenshot
 
-![Screenshot]()
+![Screenshot](./assets/screencapture-ha-tech-blog-herokuapp-2022-09-20-22_41_07.png)
 
 ## Deployed App
 
-:atom_symbol: [Heroku App]()
+:atom_symbol: [Heroku App](https://ha-tech-blog.herokuapp.com/)
    
 ## Description
   
